@@ -1,0 +1,61 @@
+body {
+    font-family: 'Aref Ruqaa';font-size: 22px;
+}
+* {
+    box-sizing: border-box;
+}
+video {
+    width: 100%;
+    height: auto;
+  }
+.container {
+    position: relative;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: aliceblue;
+  }
+#container {
+    background-color: white;
+    width: 100%;
+    }
+    #header {
+        background-color: rgb(189, 184, 184);
+        height: 50px;
+        display:flex;
+        justify-content: space-between;
+    }    
+        .nav {
+                padding-left:0px;
+                margin: auto 16px;
+            }
+        .a{
+                color:black;
+                margin: auto 16px;
+            }
+
+            h1,
+            h2{          
+                color:black;
+            }
+            p{
+                color: black;
+                padding-bottom: 15px;
+            }
+            img {
+                width: 100%;
+                padding: 10px;
+                background-size:cover;
+            }
+    #footer {
+            background-color: WHITE	;
+            clear: both;           
+    }
+    
+    
+    
